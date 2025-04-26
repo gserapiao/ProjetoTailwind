@@ -6,7 +6,7 @@ const ProfileTailwind: React.FC = () => {
   const [userData, setUserData] = useState<GitHubUser | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const username = 'octocat'; // Example username, can be made dynamic later
+  const username = 'octocat'; 
 
   useEffect(() => {
     const loadUserData = async () => {

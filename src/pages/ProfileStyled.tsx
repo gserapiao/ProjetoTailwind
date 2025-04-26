@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { fetchGitHubUser, GitHubUser } from '../services/githubApi';
 
-// Styled Components
 const PageContainer = styled.div`
   min-height: 100vh;
   background-color: #f7fafc; /* gray-100 */
